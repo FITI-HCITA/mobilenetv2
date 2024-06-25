@@ -17,12 +17,12 @@ This training program will automatically export TFLite model after training and 
 - Please check your opensource dataset name **--dataset "opensource dataset name"**
 
     Example of opensource dataset name
-    ``--dataset 'horses_or_humans'``
+    ``--dataset "horses_or_humans"``
 
 - **Opensource datatset name** can be obtained from [TensorFlow Website](https://www.tensorflow.org/datasets/catalog/overview#all_datasets).
 
 ```python
-python main.py --dataset 'opensource_dataset_name' --img_size 224 --epochs 500 --batch_size 32
+python main.py --dataset "opensource_dataset_name" --img_size 224 --epochs 500 --batch_size 32
                          
 ```
 
